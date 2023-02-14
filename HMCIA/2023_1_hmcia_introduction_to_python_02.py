@@ -192,7 +192,8 @@ df_info = requests.get(url2).text
 import pandas as pd
 url3="https://gist.githubusercontent.com/LichAmnesia/3fb2e05cf654600882cf972c74f1e4ea/raw/293ca13a3d1a73fad54e5c6601c5843324d3694b/pandas_to_csv_2.csv"
 mydf=pd.read_csv(url3)
-display(mydf)
+#display(mydf)
+mydf.head
 
 """The dataset we downloaded is hosted at the UCI repository. In order to now more about it, we have also fetched the text file that describes in detail what information we can find in this dataset"""
 
